@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+body{
+    background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+ 
+.top-nav{
+    height: 70px;
+    width: 100%;
+box-shadow: 1px 1px 5px gray;
+background-color: whitesmoke;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.top-nav img{
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    transition: all 0.3s;
+}
+.top-nav img:hover{
+    transform: scale(1.02);
+}
+#top-nav-shadow{
+    box-shadow:0px 1px 5px gray;
+    height: 60px;
+    padding: 5;
+}
+/*Header Section */
+.main-contaner{
+background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    max-width: 1000px;
+    width: 100%;
+    height:fit-content;
+    padding: 50px 0;
+    margin: 0 auto;
+    display:flex ;
+    justify-content:center;
+    align-items: center;
+}
+.card-main-contaner{
+    height: 600px;
+    width: 80%;
+    border: 1px solid crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card-left-contaner{
+    height: 100%;
+    width: 65%;
+    border: 1px solid gold;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-left-top-contaner{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}
+.card-top-one{
+    height: 95%;
+    width: 95%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+   background-color: brown;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all 0.5;
+}
+.card-top-one hover{
+    background-color: brown;
+}
+.card-top-one img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.card-one-text-contaner{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+ 
+
+
+    
+}
+.card-one-text-contaner h1{
+    color: white;
+    font-size: 22px;
+    text-align: left;
+    padding: 10px;
+
+}
+.card-one-text-contaner p{
+    color: aliceblue;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px  ;
+    position: relative;
+    bottom: 10px;
+}
+.card-left-bottom-contaner{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}
+.card-right-contaner{
+    height: 100%;
+    width: 30%;
+    border: 1px solid gold;
+}
+
+
